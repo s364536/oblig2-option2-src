@@ -14,11 +14,10 @@ main{
     background-color: whitesmoke;
 }
 
-<!-- (hint: you may need to use pseudo-elements to create this background. If so, you may need to adjust the z-index of the different elements. 
-The z-index accepts both negative and positive values -->
+/* (hint: you may need to use pseudo-elements to create this background. If so, you may need to adjust the z-index of the different elements. 
+The z-index accepts both negative and positive values */
 
 #intro-container {
     background-color: #c5192d;
-    
 }
 
