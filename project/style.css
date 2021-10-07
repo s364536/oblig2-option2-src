@@ -1,11 +1,33 @@
 @media only screen and (max-width: 600px){
     body{
         background-color: 35deg, #f5f7fa 0%, #c3cfe2 100%;
+        
     }
     
     @font-face {
         font-family: "Lato";
         src: url();
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        src: url(/project/assets/fonts/Montserrat-Bold.ttf);
+    }
+
+    p {
+        width: 70ch;
+    }
+
+    h1 {
+        size: 4rem;
+    }
+
+    h2 {
+        size: 2.2rem;
+    }
+
+    h1, h2 {
+        font-family: "Montserrat", sans-serif;
     }
 }
 
@@ -13,5 +35,3 @@ main{
     box-shadow: 1px 1px 1px 1px darkgray;
     background-color: whitesmoke;
 }
-
-[Jegfbsejfbeskbgjeksbgajeasøbgaø]
