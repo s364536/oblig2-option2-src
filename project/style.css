@@ -8,3 +8,8 @@
         src: url();
     }
 }
+
+main{
+    box-shadow: 1px 1px 1px 1px darkgray;
+    background-color: whitesmoke;
+}
