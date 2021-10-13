@@ -40,8 +40,6 @@
     }
     #intro-container {
         background-color: #c5192d;
-        padding: 15px;
-        margin: 10px;
     }
 }
 
@@ -61,7 +59,11 @@
     article {}
 }
 
-@media only screen and (min-width:961px) {}
+@media only screen and (min-width:961px) {
+    .article {
+        display: inline-block;
+    }
+}
 
 
 /* (hint: you may need to use pseudo-elements to create this background. If so, you may need to adjust the z-index of the different elements. 
