@@ -1,12 +1,11 @@
 @media only screen and (max-width: 600px) {
-    html{
+    html {
         font-size: 14px;
     }
-
     body {
         background-color: 35deg, #f5f7fa 0%, #c3cfe2 100%;
         font-family: Lato, sans-serif;
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
     }
     header {
         height: 55vh;
@@ -48,18 +47,24 @@
         background-color: #c5192d;
         padding: 15px;
         margin: 10px;
-    
-        
-    
-    
-    
-
-    
-
     }
 }
 
-@media screen and (min-width:600px) and (max-width:960px) {}
+@media screen and (min-width:600px) and (max-width:960px) {
+    header {
+        height: 65vh;
+    }
+    header,
+    main,
+    footer {
+        width: 85%;
+    }
+    div {
+        display: inline-block;
+        font-size;
+    }
+    article {}
+}
 
 @media only screen and (min-width:961px) {}
 
