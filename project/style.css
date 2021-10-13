@@ -56,6 +56,8 @@ max-height: 100%;
 
     #intro-container {
         background-color: #c5192d;
+        padding: 15px;
+        margin: 10px;
     }
 }
 
