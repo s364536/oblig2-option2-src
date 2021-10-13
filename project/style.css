@@ -1,33 +1,21 @@
 @media only screen and (max-width: 600px) {
-    html{
+    html {
         font-size: 14px;
     }
-
-    header{
-    height: 55vh; 
-    background-image: url(/project/assets/img/studentsbg.png);
-    background-position: static;
-    background-position: top;
-    text-align: center;
-    width: 100%;
-    display: fixed;
-  
-    
-
+    header {
+        height: 55vh;
+        background-image: url(/project/assets/img/studentsbg.png);
+        background-position: static;
+        background-position: top;
+        text-align: center;
+        width: 100%;
+        display: fixed;
     }
-    
-    header > div{
-    background-color: #c5192d;
-    position: relative;
-    margin-top: 4rem;
-     
-      
-    
-}
-
-
-
-
+    header>div {
+        background-color: #c5192d;
+        position: relative;
+        margin-top: 4rem;
+    }
     @font-face {
         font-family: "Montserrat";
         src: url(/project/assets/fonts/Montserrat-Bold.ttf);
@@ -76,10 +64,24 @@
   
 }
 
-@media screen and (min-width:600px) and (max-width:960px) {}
+@media screen and (min-width:600px) and (max-width:960px) {
+    header {
+        height: 65vh;
+    }
+    header,
+    main,
+    footer {
+        width: 85%;
+    }
+    div {
+        display: inline-block;
+        font-size;
+    }
+    article {}
+}
 
 @media only screen and (min-width:961px) {
-    .article{
+    .article {
         display: inline-block;
     }
 }
