@@ -2,14 +2,18 @@
     html {
         font-size: 14px;
     }
+
+    img{
+        width: 95vw;
+    }
+
     header {
         height: 55vh;
         background-image: url(/project/assets/img/studentsbg.png);
-        background-position: static;
-        background-position: top;
+        background-position: center;
         text-align: center;
         width: 100%;
-        display: fixed;
+        background-attachment: fixed;
     }
     header>div {
         background-color: #c5192d;
