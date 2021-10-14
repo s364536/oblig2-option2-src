@@ -106,8 +106,7 @@
     header {
         height: 65vh;
     }
-    header,
-    main,
+    main
     footer {
         width: 85%;
     }
@@ -144,8 +143,8 @@
     }
    
 
-
 }
+
 @media only screen and (min-width:961px) {
     .article {
         display: inline-block;
