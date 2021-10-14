@@ -73,6 +73,17 @@
     div {
         padding: 15px;
     }
+    footer{
+        background-color: #c5192d;
+        padding: 15px;
+        color: white;
+    }
+    a{
+        color: white;
+    }
+    article > div{
+        padding: 0 15px;
+    }
 }
 
 @media screen and (min-width:600px) and (max-width:960px) {
