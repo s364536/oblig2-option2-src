@@ -13,7 +13,7 @@
 
     img {
         width: 93%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     header {
         height: 55vh;
@@ -60,11 +60,10 @@
         background-color: whitesmoke;
         padding: 2rem;
     }
-
     #intro-container {
         background-color: #c5192d;
         padding: 15px;
-        margin-top: 10rem;
+        margin-top: 14rem;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -98,6 +97,11 @@
     div {
         padding: 15px;
     }
+
+    #intro-container > li{
+        padding-bottom: 0;
+    }
+
     footer{
         background-color: #c5192d;
         padding: 15px;
