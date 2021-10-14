@@ -15,17 +15,15 @@
         background-image: url(/project/assets/img/studentsbg.png);
         background-position: center;
         text-align: center;
-        width: 100%;
         background-attachment: fixed;
         color: white;
+        background-size: cover;
     }
     header>div {
-        background-color: #c5192d;
-      padding: 2rem;
-        position: relative;
-        top: 4rem;
-        
-       
+    background-color: #c5192d;
+    padding: 2rem;
+    position: relative;
+    top: 4rem;
 
       }
     
@@ -95,6 +93,7 @@
     a{
         color: white;
     }
+   
    
 
 
