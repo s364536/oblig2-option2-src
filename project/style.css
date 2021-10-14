@@ -18,7 +18,6 @@
         background-image: url(/project/assets/img/studentsbg.png);
         background-position: center;
         text-align: center;
-        width: 100%;
         background-attachment: fixed;
         color: white;
         background-size: cover;
@@ -104,12 +103,15 @@
     a{
         color: white;
     }
-    article > div{
-        padding: 0 15px;
-    }
-}
+   
+   
+
 
 @media screen and (min-width:600px) and (max-width:960px) {
+    html {
+        font-size: 16px;
+    }
+    
     header {
         height: 65vh;
     }
@@ -118,25 +120,45 @@
     footer {
         width: 85%;
     }
-    div {
-        display: inline-block;
-    }
-
-
-    .article {
+   
+    article {
         display: flex;
+        background-color: whitesmoke;
+
     }
 
+    img {
+        width: 45%;
+        height:40%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    div {
+        width: 45%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
     
 
-}
+    #intro-container > div:nth-child(1){
+        background-color: #c5192d;
+        width: 50%;
 
+    }
+
+    #intro-container {
+        display: flex;
+        background-color: whitesmoke;
+    }
+   
+
+
+}
 @media only screen and (min-width:961px) {
     .article {
         display: inline-block;
     }
 }
 
-
-/* (hint: you may need to use pseudo-elements to create this background. If so, you may need to adjust the z-index of the different elements. 
-The z-index accepts both negative and positive values */
+}
