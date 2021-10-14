@@ -87,16 +87,18 @@
     footer {
         width: 85%;
     }
-    div {
-        display: inline-block;
+   
+    article {
+        display: flex;
     }
 
-
-    .article {
+    #intro-container {
         display: flex;
     }
 
     
+
+
 
 }
 
