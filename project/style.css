@@ -18,6 +18,10 @@
         background-color: #c5192d;
         position: relative;
         margin-top: 4rem;
+        padding: 2rem;
+    }
+    div>h1{
+        font-size: 3rem;
     }
     @font-face {
         font-family: "Montserrat";
@@ -43,6 +47,7 @@
     }
     #intro-container {
         background-color: #c5192d;
+        padding: 15px;
     }
     li:first-child::before {
         content: "\1F64C";
@@ -98,6 +103,14 @@
     div {
         display: inline-block;
     }
+
+
+    .article {
+        display: flex;
+    }
+
+    
+
 }
 
 @media only screen and (min-width:961px) {
