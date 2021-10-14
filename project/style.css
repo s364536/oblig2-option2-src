@@ -112,12 +112,18 @@
         display: flex;
     }
 
+    #intro-container > div:nth-child(1){
+        background-color: #c5192d;
+        width: 45%;
+    }
+
     #intro-container {
         display: flex;
     }
    
 
 
+}
 @media only screen and (min-width:961px) {
     .article {
         display: inline-block;
