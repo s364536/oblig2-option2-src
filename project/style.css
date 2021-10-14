@@ -21,10 +21,10 @@
     }
     header>div {
         background-color: #c5192d;
+      padding: 2rem;
         position: relative;
-        padding: 2rem;
-        top: 50%;
-
+        top: 4rem;
+        
        
 
       }
@@ -95,10 +95,8 @@
     a{
         color: white;
     }
-    article > div{
-        padding: 0 15px;
-    }
-}
+   
+
 
 @media screen and (min-width:600px) and (max-width:960px) {
     header {
@@ -117,12 +115,8 @@
     #intro-container {
         display: flex;
     }
+   
 
-    
-
-
-
-}
 
 @media only screen and (min-width:961px) {
     .article {
