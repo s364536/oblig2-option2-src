@@ -2,6 +2,11 @@
     html {
         font-size: 14px;
     }
+
+    body{
+        line-height: 1.5;
+    }
+
     img {
         width: 95vw;
     }
@@ -29,7 +34,6 @@
     }
     p {
         max-width: 70ch;
-        line-height: 1.5;
     }
     h1 {
         size: 4rem;
@@ -75,7 +79,20 @@
         margin-left: 0px;
         padding-left: 0px;
     }
-   
+    div {
+        padding: 15px;
+    }
+    footer{
+        background-color: #c5192d;
+        padding: 15px;
+        color: white;
+    }
+    a{
+        color: white;
+    }
+    article > div{
+        padding: 0 15px;
+    }
 }
 
 @media screen and (min-width:600px) and (max-width:960px) {
