@@ -17,9 +17,13 @@
     header>div {
         background-color: #c5192d;
         position: relative;
-        margin-top: 4rem;
         padding: 2rem;
-    }
+        top: 50%;
+
+       
+
+      }
+    
     div>h1{
         font-size: 3rem;
     }
@@ -48,6 +52,7 @@
     #intro-container {
         background-color: #c5192d;
         padding: 15px;
+    
     }
     li:first-child::before {
         content: "\1F64C";
