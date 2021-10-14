@@ -12,15 +12,17 @@
         background-image: url(/project/assets/img/studentsbg.png);
         background-position: center;
         text-align: center;
-        width: 100%;
-        background-attachment: fixed;
+        width: 100%
+        background-attachment: fxied;
     }
     header>div {
         background-color: #c5192d;
         position: relative;
         margin-top: 4rem;
         padding: 2rem;
-        
+    }
+    div>h1{
+        font-size: 3rem;
     }
     @font-face {
         font-family: "Montserrat";
