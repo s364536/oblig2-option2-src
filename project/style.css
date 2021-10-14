@@ -101,6 +101,10 @@
 }
 
 @media screen and (min-width:600px) and (max-width:960px) {
+    html {
+        font-size: 16px;
+    }
+    
     header {
         height: 65vh;
     }
@@ -112,15 +116,33 @@
    
     article {
         display: flex;
+        background-color: whitesmoke;
+
     }
+
+    img {
+        width: 45%;
+        height:40%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    div {
+        width: 45%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
 
     #intro-container > div:nth-child(1){
         background-color: #c5192d;
-        width: 45%;
+        width: 50%;
+
     }
 
     #intro-container {
         display: flex;
+        background-color: whitesmoke;
     }
 
     li:first-child::before {
