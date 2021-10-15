@@ -2,23 +2,21 @@
     html {
         font-size: 14px;
     }
-
-    body{
+    body {
         line-height: 1.5;
-        width: 95vw;
-        margin: 0;
-        overflow-x: hidden;
-        width: 100%;
+        border-radius: 0 auto;
+        width: 100vw;
     }
-
     img {
-        width: 93%;
-        margin-left: 15px;
+        width: 95vw;
+        margin: 0 auto;
     }
     header {
         height: 55vh;
+        width: 100vw;
         background-image: url(/project/assets/img/studentsbg.png);
         background-position: center;
+        background-size: cover;
         text-align: center;
         background-attachment: fixed;
         color: white;
@@ -26,16 +24,13 @@
     }
     header>div {
         background-color: #c5192d;
+        max-width: 85vw;
+        margin: 0 auto;
         position: relative;
         padding: 2rem;
-        bottom: -4rem;
-        top: 25rem;
-       
-        margin: 0 auto;
-        width: 68vw;
-        z-index: 2;
+        top: 60%;
     }
-    div>h1{
+    div>h1 {
         font-size: 3rem;
     }
     @font-face {
@@ -58,15 +53,16 @@
     main {
         box-shadow: 0px 0px 1px 0px darkgray;
         background-color: whitesmoke;
-        padding: 2rem;
+        width: 85vw;
     }
     #intro-container {
         background-color: #c5192d;
         padding: 15px;
-        margin-top: 14rem;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 85vw;
+        margin-top: 8rem;
+    }
+    article {
+        width: 80%;
     }
     li:first-child::before {
         content: "\1F64C";
@@ -96,30 +92,28 @@
     }
     div {
         padding: 15px;
+        border-bottom: 2rem;
+        margin: 0 auto;
     }
-
-    #intro-container > li{
-        padding-bottom: 0;
-    }
-
-    footer{
+    footer {
         background-color: #c5192d;
         padding: 15px;
         color: white;
-        width: 95vw;
     }
-    a{
+    a {
         color: white;
     }
-
+    article>div {
+        padding: 0 15px;
+        width: 95vw;
+        background-color: red;
+    }
 }
-   
-   
+
 @media screen and (min-width:600px) and (max-width:960px) {
     html {
         font-size: 16px;
     }
-    
     header {
         height: 65vh;
     }
@@ -128,91 +122,17 @@
     footer {
         width: 85%;
     }
-   
     article {
-        display: inline-block;
-        background-color: whitesmoke;
-
+        display: flex;
     }
-
-    img {
-        width: 45%;
-        height:40%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    div {
-        width: 45%;
-        padding-right: 5%;
-        padding-left: 5%;
-    }
-    
-
-    #intro-container > div:nth-child(1){
-        background-color: #c5192d;
-        width: 50%;
-
-    }
-
     #intro-container {
         display: flex;
         background-color: whitesmoke;
     }
-
-    li:first-child::before {
-        content: "\1F64C";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-    
-    li:nth-child(2)::before {
-    content: "\1F3EB";
-    width: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    }
-    
-    li:last-child::before {
-    content: "\1F4DA";
-    width: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-    ul {
-    list-style-type: none;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
-    footer{
-    background-color: #c5192d;
-    padding: 15px;
-    color: white;
-
-}
-
-    a{
-    color: white;
-}
-
-#intro-container > div:nth-child(1){
-        background-color: #c5192d;
-        width: 50%;
-
-    }
-
-
 }
 
 @media only screen and (min-width:961px) {
-    .article {
+    article {
         display: inline-block;
     }
 }
-
