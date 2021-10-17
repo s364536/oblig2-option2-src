@@ -122,22 +122,50 @@
     header {
         height: 65vh;
     }
+    body{
+        margin: 0;
+    }
     header,
     main,
     footer {
-        width: 85%;
+        width: 85vw;
     }
-    article {
-        display: flex;
+    #intro-container > div:first-of-type{
+        background-color: #c5192d;
+    }
+
+    img{
+        height: 250px;
+        width: 250px;
+    }
+
+    main{
+        display: inline;
+        width: 100vw;
+    }
+
+    article > div{
+        width: 45%;
+        display: inline-block;
+        height: 300px;
     }
     #intro-container {
-        display: flex;
         background-color: whitesmoke;
     }
-}
+    footer {
+        background-color: #c5192d;
+        padding: 15px;
+        color: white;
+        margin: 0 auto;
+        max-width: 85vw;
+    }
+    footer > p > a{
+        color: white;
+    }
 
 @media only screen and (min-width:961px) {
     article {
         display: inline-block;
     }
+}
 }
