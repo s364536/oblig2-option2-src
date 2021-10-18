@@ -200,6 +200,7 @@
     main {
         width: 100vw;
         display: inline-block;
+        text-align:center;
     }
     #intro-container {
         margin-top: 6rem;
@@ -249,7 +250,17 @@
     div {
         border-bottom: 2rem;
         margin: 0 auto;
+        text-align: left;
+      
     }
+
+    #intro-container>div>ul{
+        margin-left: 20px;
+       
+    }
+
+    
+
     footer {
         background-color: #c5192d;
         padding-top: 15px;
