@@ -357,7 +357,7 @@
     }
     header>div {
         background-color: #c5192d;
-        margin: auto;
+        margin: 0 auto;
         position: relative;
         bottom: -4rem;
         top: 9.7rem;
@@ -368,6 +368,7 @@
     }
     header>div>p {
         margin: 2%;
+        text-align: center;
     }
     div>h1 {
         padding-bottom: 0;
