@@ -198,28 +198,15 @@
     ul {
         list-style-type: none;
     }
-<<<<<<< HEAD
-
-   
-    
-        footer>p>a {
-=======
     article>div {
         width: 45%;
     }
     footer>p>a {
->>>>>>> 00b4ede197667ac1100d37c92ea3871f2aeb9979
         color: white;
     }
     article {
         padding: 20px;
     }
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 00b4ede197667ac1100d37c92ea3871f2aeb9979
 }
 
 @media only screen and (min-width:961px) {
