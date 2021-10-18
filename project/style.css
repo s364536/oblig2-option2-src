@@ -153,18 +153,15 @@
         max-width: 85vw;
         display: inline-block;
         background-color: whitesmoke;
-        padding: 30px;
-        height: 300px;
+        padding: 2rem;
     }
-
-    article:nth-child(3){
-        height: 400px;
+    article > div > img{
+        text-align: right;
+        align-items: right;
+        left: 30px;
+        position: absolute;
+        right: 0%;
     }
-
-    article:nth-child(4){
-        height: 500px;
-    }
-
     header {
         height: 65vh;
         background-image: url(/project/assets/img/studentsbg.png);
@@ -228,17 +225,10 @@
         width: 49%;
         margin: 0;
     }
-
     #intro-container>div:last-of-type {
-        width: 50%;
+        width: 49%;
         margin: 0;
         margin-top: 2rem;
-    }
-
-    #intro-container > div > ul {
-        margin-left: 20px;
-        vertical-align: middle;
-       
     }
     main>article:nth-child(2) {
         border-bottom: 0.1px solid rgb(224, 224, 235);
@@ -300,6 +290,7 @@
     article>div {
         width: 45%;
         display: inline-block;
+        height: 300px;
     }
     footer>p>a {
         color: white;
