@@ -155,7 +155,7 @@
         background-color: whitesmoke;
         padding: 2rem;
     }
-    article > div > img{
+    article>div>img {
         text-align: right;
         align-items: right;
         left: 30px;
@@ -177,7 +177,7 @@
         margin: auto;
         position: relative;
         bottom: -4rem;
-        top: 27.1rem;
+        top: 21.1rem;
         height: 40%;
         max-width: 85vw;
         z-index: 2;
@@ -322,13 +322,21 @@
     }
     img {
         width: 40%;
+        align-items: flex-end;
         top: 0px;
-
     }
     article {
         max-width: 70vw;
         display: inline-block;
         background-color: whitesmoke;
+        padding: 2rem;
+    }
+    article>div>img {
+        text-align: right;
+        align-items: right;
+        left: 30px;
+        position: absolute;
+        right: 0%;
     }
     header {
         height: 65vh;
@@ -349,7 +357,6 @@
         height: 40%;
         max-width: 85vw;
         z-index: 2;
-        padding: 0;
         text-align: center;
     }
     header>div>p {
@@ -446,7 +453,7 @@
         padding-bottom: 15px;
         color: white;
         margin: 0 auto;
-        max-width: 85vw;
+        max-width: 70vw;
         margin-top: 2rem;
     }
     footer>p {
@@ -467,53 +474,13 @@
     main>article:nth-of-type(4)>img {
         text-align: right;
     }
-@media only screen and (min-width:960px) {
-        html {
-            font-size: 24px;
-        }
-        header {
-            height: 65vh;
-        }
-        header,
-        main,
-        footer {
-            width: 85vw;
-        }
-        article {
-            display: inline-block;
-        }
-        body {
-            margin: 0;
-        }
-        header>div {
-            height: 100%;
-        }
-        img {
-            height: 250px;
-            width: 250px;
-        }
-        main {
-            display: inline;
-            width: 100vw;
-        }
-        article>div {
-            width: 45%;
-            display: inline-block;
-            height: 300px;
-        }
-        #intro-container {
-            background-color: whitesmoke;
-            background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
-        }
-        footer {
-            background-color: #c5192d;
-            padding: 15px;
-            color: white;
-            margin: 0 auto;
-            max-width: 70vw;
-        }
-        footer>p>a {
-            color: white;
-        }
+    article:nth-child(2)>div:first-of-type {
+        margin-right: 5%;
+    }
+    article:nth-child(3)>div:last-of-type {
+        margin-left: 5%;
+    }
+    article:nth-child(4)>div:first-of-type {
+        margin-right: 5%;
     }
 }
