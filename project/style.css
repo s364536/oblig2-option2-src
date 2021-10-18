@@ -142,6 +142,7 @@
         margin: 0;
         font-size: 1.2rem;
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        text-align: center;
     }
     img {
         width: 250px;
@@ -199,7 +200,7 @@
         font-family: "Montserrat", sans-serif;
     }
     main {
-        width: 100vw;
+        width: 85 vw;
         display: inline-block;
         text-align: center;
     }
