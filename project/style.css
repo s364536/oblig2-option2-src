@@ -152,18 +152,6 @@
         max-width: 85vw;
         display: inline-block;
         background-color: whitesmoke;
-<<<<<<< HEAD
-        padding: 30px;
-        height: 300px;
-    }
-
-    article:nth-child(3){
-        height: 400px;
-    }
-
-    article:nth-child(4){
-        height: 500px;
-=======
         padding: 2rem;
     }
     article > div > img{
@@ -172,9 +160,7 @@
         left: 30px;
         position: absolute;
         right: 0%;
->>>>>>> 6b957feba3c5bc95d1b39eb33c18a8e34b53b5da
     }
-
     header {
         height: 65vh;
         background-image: url(/project/assets/img/studentsbg.png);
@@ -194,10 +180,6 @@
         height: 40%;
         max-width: 85vw;
         z-index: 2;
-<<<<<<< HEAD
-        padding: 0;
-=======
->>>>>>> 6b957feba3c5bc95d1b39eb33c18a8e34b53b5da
         text-align: center;
     }
     header>div>p {
@@ -227,46 +209,25 @@
     main {
         width: 85vw;
         display: inline-block;
-<<<<<<< HEAD
-        position: relative;
-        left: 7.5%;
-=======
         text-align: center;
->>>>>>> 6b957feba3c5bc95d1b39eb33c18a8e34b53b5da
     }
     #intro-container {
         margin-top: 6rem;
         margin-left: 0;
         margin-right: 0;
         background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
-<<<<<<< HEAD
-        padding: 0;
-        height: 500px
-    }
-    #intro-cotainer>div:first-of-type {
-        width: 50%;
-        background-color: #c5192d;
-=======
         border-bottom: 0.1px solid rgb(224, 224, 235);
         margin-bottom: 5px;
         max-height: 40rem;
     }
     #intro-cotainer>div:first-of-type {
         width: 49%;
->>>>>>> 6b957feba3c5bc95d1b39eb33c18a8e34b53b5da
         margin: 0;
     }
-
     #intro-container>div:last-of-type {
-        width: 50%;
+        width: 49%;
         margin: 0;
         margin-top: 2rem;
-    }
-
-    #intro-container > div > ul {
-        margin-left: 20px;
-        vertical-align: middle;
-       
     }
     main>article:nth-child(2) {
         border-bottom: 0.1px solid rgb(224, 224, 235);
@@ -305,12 +266,9 @@
     div {
         margin: 0 auto;
         text-align: left;
-<<<<<<< HEAD
-=======
     }
     #intro-container>div>ul {
         margin-left: 20px;
->>>>>>> 6b957feba3c5bc95d1b39eb33c18a8e34b53b5da
     }
     footer {
         background-color: #c5192d;
@@ -331,6 +289,7 @@
     article>div {
         width: 45%;
         display: inline-block;
+        height: 300px;
     }
     footer>p>a {
         color: white;
@@ -341,21 +300,11 @@
     article:nth-child(2)>div:first-of-type {
         margin-right: 5%;
     }
-<<<<<<< HEAD
-
-    article:nth-child(4)>div:first-of-type {
-        margin-right: 10%;
-    }
-
-    article:nth-child(3)>div:first-of-type {
-        margin-left: 10%;
-=======
     article:nth-child(3)>div:last-of-type {
         margin-left: 5%;
     }
     article:nth-child(4)>div:first-of-type {
         margin-right: 5%;
->>>>>>> 6b957feba3c5bc95d1b39eb33c18a8e34b53b5da
     }
 }
 
