@@ -331,8 +331,8 @@
     }
     img {
         width: 40%;
-        align-items: flex-end;
         top: 0px;
+
     }
     article {
         max-width: 70vw;
