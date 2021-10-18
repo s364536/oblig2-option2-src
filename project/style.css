@@ -32,7 +32,7 @@
         position: relative;
         bottom: -4rem;
         top: 15.05rem;
-        height: 100px;
+        height: 65%;
         max-width: 95vw;
         z-index: 2;
         padding: 0;
@@ -152,6 +152,13 @@
         display: inline-block;
         background-color: whitesmoke;
     }
+    article > div > img{
+        text-align: right;
+        align-items: right;
+        left: 30px;
+        position: absolute;
+        right: 0%;
+    }
     header {
         height: 65vh;
         background-image: url(/project/assets/img/studentsbg.png);
@@ -167,11 +174,10 @@
         margin: auto;
         position: relative;
         bottom: -4rem;
-        top: 15.05rem;
-        height: 65%;
+        top: 27.1rem;
+        height: 40%;
         max-width: 85vw;
         z-index: 2;
-        padding: 0;
         text-align: center;
     }
     header>div>p {
@@ -200,7 +206,7 @@
         font-family: "Montserrat", sans-serif;
     }
     main {
-        width: 85 vw;
+        width: 85vw;
         display: inline-block;
         text-align: center;
     }
@@ -219,7 +225,6 @@
     #intro-container>div:last-of-type {
         width: 49%;
         margin: 0;
-        margin-left: 2rem;
         margin-top: 2rem;
     }
     #intro-container > div > ul{
@@ -293,7 +298,7 @@
     main>article:nth-of-type(4)>img {
         text-align: right;
     }
-    @media only screen and (min-width:960px) {
+@media only screen and (min-width:960px) {
         html {
             font-size: 24px;
         }
