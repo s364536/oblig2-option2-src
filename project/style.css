@@ -5,6 +5,8 @@
     body {
         line-height: 1.5;
         margin: 0;
+        font-size: 1.2rem;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     }
     
     img {
@@ -30,14 +32,16 @@
         margin: auto;
         position: relative;
         bottom: -4rem;
-        top: 16.65rem;
-        height: 60%;
+        top: 15.05rem;
+        height: 65%;
         max-width: 95vw;
         z-index: 2;
         padding: 0;
     }
+    header > div > p{
+        margin: 2%;
+    }
     div>h1 {
-        font-size: 3rem;
         padding: 2rem;
         padding-bottom: 0;
         margin-top: 0;
@@ -129,7 +133,7 @@
         max-width: 70ch;
     }
 
-
+}
 @media screen and (min-width:600px) and (max-width:960px) {
     html {
         font-size: 16px;
@@ -162,28 +166,7 @@
         height: 300px;
     }
     #intro-container {
-        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
-    }
-    li:first-child::before {
-        content: "\1F64C";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-    li:nth-child(2)::before {
-        content: "\1F3EB";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-    li:last-child::before {
-        content: "\1F4DA";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
+        background-color: whitesmoke;
     }
     footer {
         background-color: #c5192d;
@@ -208,6 +191,8 @@
     article {
         padding: 20px;
     }
+
+}
     
     
     @media only screen and (min-width:961px) {
@@ -262,6 +247,3 @@
             color: white;
         }
     }
-}
-
-}
