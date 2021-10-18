@@ -8,7 +8,6 @@
         font-size: 1.2rem;
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     }
-    
     img {
         width: 86vw;
         margin-left: 4%;
@@ -38,7 +37,7 @@
         z-index: 2;
         padding: 0;
     }
-    header > div > p{
+    header>div>p {
         margin: 2%;
     }
     div>h1 {
@@ -77,7 +76,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    main > article:nth-child(2){
+    main>article:nth-child(2) {
         border-bottom: 0.1px solid rgb(224, 224, 235);
         margin-bottom: 5px;
     }
@@ -132,8 +131,8 @@
         padding: 0 15px;
         max-width: 70ch;
     }
-
 }
+
 @media screen and (min-width:600px) and (max-width:960px) {
     html {
         font-size: 16px;
@@ -199,72 +198,75 @@
     ul {
         list-style-type: none;
     }
+<<<<<<< HEAD
 
    
     
         footer>p>a {
-        color: white;
-        
+=======
+    article>div {
+        width: 45%;
     }
-
+    footer>p>a {
+>>>>>>> 00b4ede197667ac1100d37c92ea3871f2aeb9979
+        color: white;
+    }
     article {
         padding: 20px;
     }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 00b4ede197667ac1100d37c92ea3871f2aeb9979
 }
-    
-    @media only screen and (min-width:961px) {
-        html{
-            font-size: 24px;
-        }
 
-        header {
-            height: 65vh;
-        }
-
+@media only screen and (min-width:961px) {
+    html {
+        font-size: 24px;
+    }
+    header {
+        height: 65vh;
+    }
     header,
     main,
-    footer{
+    footer {
         width: 70vw;
     }
-
     article {
         display: inline-block;
     }
-
-        body {
-            margin: 0;}
-    
-     #intro-container>div:first-of-type {
-            background-color: #c5192d;
-        }
-        img {
-            height: 250px;
-            width: 250px;
-        }
-        main {
-            display: inline;
-            width: 100vw;
-        }
-        article>div {
-            width: 45%;
-            display: inline-block;
-            height: 300px;
-        }
-        #intro-container {
-            background-color: whitesmoke;
-        }
-        footer {
-            background-color: #c5192d;
-            padding: 15px;
-            color: white;
-            margin: 0 auto;
-            max-width: 70vw;
-        }
-        footer>p>a {
-            color: white;
-        }
-        /* hei jeg heter daniel */
+    body {
+        margin: 0;
     }
+    #intro-container>div:first-of-type {
+        background-color: #c5192d;
+    }
+    img {
+        height: 250px;
+        width: 250px;
+    }
+    main {
+        display: inline;
+        width: 100vw;
+    }
+    article>div {
+        width: 45%;
+        display: inline-block;
+        height: 300px;
+    }
+    #intro-container {
+        background-color: whitesmoke;
+    }
+    footer {
+        background-color: #c5192d;
+        padding: 15px;
+        color: white;
+        margin: 0 auto;
+        max-width: 70vw;
+    }
+    footer>p>a {
+        color: white;
+    }
+}
