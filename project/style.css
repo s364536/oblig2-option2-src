@@ -199,14 +199,17 @@
         list-style-type: none;
     }
 
-    footer>p>a {
-        color: white;
+    article>div {
+        width: 45%;
     }
+
+    footer>p>a {
+    color: white;
+    }
+
     main > article:nth-of-type(4) > img{
         text-align: right; 
     }
-
-}
 
 @media only screen and (min-width:960px) {
     html {
@@ -257,4 +260,5 @@
     footer>p>a {
         color: white;
     }
+}
 }
