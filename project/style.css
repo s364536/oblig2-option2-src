@@ -6,6 +6,7 @@
         line-height: 1.5;
         margin: 0;
     }
+    
     img {
         width: 86vw;
         margin-left: 4%;
@@ -127,7 +128,7 @@
         padding: 0 15px;
         max-width: 70ch;
     }
-}
+
 
 @media screen and (min-width:600px) and (max-width:960px) {
     html {
@@ -152,7 +153,7 @@
         width: 250px;
     }
     main {
-        display: inline;
+        display: inline-block;
         width: 100vw;
     }
     article>div {
@@ -195,14 +196,20 @@
         list-style-type: none;
     }
 
-    article > div > img:first-child {
-        position: bottom right;
+    article > div {
+        width: 45%;
     }
     
         footer>p>a {
         color: white;
         
     }
+
+    article {
+        padding: 20px;
+    }
+    
+    
     @media only screen and (min-width:961px) {
         html{
             font-size: 24px;
@@ -255,3 +262,6 @@
             color: white;
         }
     }
+}
+
+}
