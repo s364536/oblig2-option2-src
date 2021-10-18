@@ -35,6 +35,9 @@
         z-index: 2;
         padding: 0;
     }
+    header > div > p{
+        margin: 2%;
+    }
     div>h1 {
         font-size: 3rem;
         padding: 2rem;
@@ -133,30 +136,9 @@
     html {
         font-size: 16px;
     }
-
     header {
-        height: 55vh;
-        background-image: url(/project/assets/img/studentsbg.png);
-        background-position: center;
-        background-size: cover;
-        text-align: center;
-        background-attachment: fixed;
-        color: white;
-        background-size: cover;
+        height: 65vh;
     }
-
-    header>div {
-        background-color: #c5192d;
-        margin: 0 auto;
-        position: relative;
-        bottom: -4rem;
-        top: 15rem;
-        height: 55%;
-        max-width: 95vw;
-        z-index: 2;
-        padding: 0;
-    }
-
     body {
         margin: 0;
     }
@@ -182,28 +164,7 @@
         height: 300px;
     }
     #intro-container {
-        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
-    }
-    li:first-child::before {
-        content: "\1F64C";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-    li:nth-child(2)::before {
-        content: "\1F3EB";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-    li:last-child::before {
-        content: "\1F4DA";
-        width: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
+        background-color: whitesmoke;
     }
     footer {
         background-color: #c5192d;
@@ -212,20 +173,10 @@
         margin: 0 auto;
         max-width: 85vw;
     }
-    ul {
-        list-style-type: none;
-    }
-
-    article > div > img:first-child {
-        position: bottom right;
-    }
-    
-        footer>p>a {
+    footer>p>a {
         color: white;
         
     }
-
-    
     @media only screen and (min-width:961px) {
         html{
             font-size: 24px;
