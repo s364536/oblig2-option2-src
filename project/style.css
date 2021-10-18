@@ -200,9 +200,7 @@
         list-style-type: none;
     }
 
-    article > div {
-        width: 45%;
-    }
+   
     
         footer>p>a {
         color: white;
@@ -212,6 +210,8 @@
     article {
         padding: 20px;
     }
+
+
 
 }
     
