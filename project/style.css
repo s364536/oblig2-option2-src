@@ -7,6 +7,7 @@
         margin: 0;
         font-size: 1.2rem;
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: "Lato", sans-serif;
     }
     img {
         width: 86vw;
@@ -48,6 +49,10 @@
     @font-face {
         font-family: "Montserrat";
         src: url(/project/assets/fonts/Montserrat-Bold.ttf);
+    }
+    @font-face{
+        font-family: "Lato";
+        src: url(/project/assets/fonts/Lato-Regular.ttf);
     }
     p {
         max-width: 70ch;
@@ -143,6 +148,7 @@
         font-size: 1.2rem;
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         text-align: center;
+        font-family: "Lato", sans-serif;
     }
     img {
         width: 40%;
@@ -319,6 +325,7 @@
         font-size: 1.2rem;
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         text-align: center;
+        font-family: "Lato", sans-serif;
     }
     img {
         width: 40%;
