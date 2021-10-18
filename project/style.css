@@ -5,6 +5,7 @@
     body {
         line-height: 1.5;
         margin: 0;
+        background: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
     }
     img {
         width: 86vw;
@@ -34,6 +35,9 @@
         max-width: 95vw;
         z-index: 2;
         padding: 0;
+    }
+    header > div > p{
+        margin: 2%;
     }
     div>h1 {
         font-size: 3rem;
@@ -226,3 +230,4 @@
             color: white;
         }
     }
+}
