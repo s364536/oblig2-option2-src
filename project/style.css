@@ -7,7 +7,7 @@
         margin: 0;
     }
     img {
-        width: 81vw;
+        width: 86vw;
         margin-left: 4%;
     }
     article {
@@ -26,10 +26,10 @@
     }
     header>div {
         background-color: #c5192d;
-        margin: 0 auto;
+        margin: auto;
         position: relative;
         bottom: -4rem;
-        top: 15rem;
+        top: 16.65rem;
         height: 60%;
         max-width: 95vw;
         z-index: 2;
@@ -37,7 +37,9 @@
     }
     div>h1 {
         font-size: 3rem;
-        margin-top: 2rem;
+        padding: 2rem;
+        padding-bottom: 0;
+        margin-top: 0;
     }
     @font-face {
         font-family: "Montserrat";
@@ -69,6 +71,10 @@
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+    main > article:nth-child(2){
+        border-bottom: 0.1px solid rgb(224, 224, 235);
+        margin-bottom: 5px;
     }
     li:first-child::before {
         content: "\1F64C";
@@ -108,9 +114,11 @@
         color: white;
         margin: 0 auto;
         max-width: 95vw;
+        margin-top: 2rem;
     }
     footer>p {
         text-align: center;
+        margin: 2%;
     }
     a {
         color: white;
@@ -174,7 +182,28 @@
         height: 300px;
     }
     #intro-container {
-        background-color: whitesmoke;
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
+    }
+    li:first-child::before {
+        content: "\1F64C";
+        width: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    li:nth-child(2)::before {
+        content: "\1F3EB";
+        width: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    li:last-child::before {
+        content: "\1F4DA";
+        width: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
     footer {
         background-color: #c5192d;
@@ -183,8 +212,17 @@
         margin: 0 auto;
         max-width: 85vw;
     }
-    footer>p>a {
+    ul {
+        list-style-type: none;
+    }
+
+    article > div > img:first-child {
+        position: bottom right;
+    }
+    
+        footer>p>a {
         color: white;
+        
     }
 
     
