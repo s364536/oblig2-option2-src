@@ -10,9 +10,9 @@
         width: 81vw;
         margin-left: 4%;
     }
-    article{
+    article {
         margin: 0 auto;
-        max-width: 95vw;    
+        max-width: 95vw;
     }
     header {
         height: 55vh;
@@ -122,7 +122,7 @@
     header {
         height: 65vh;
     }
-    body{
+    body {
         margin: 0;
     }
     header,
@@ -130,21 +130,18 @@
     footer {
         width: 85vw;
     }
-    #intro-container > div:first-of-type{
+    #intro-container>div:first-of-type {
         background-color: #c5192d;
     }
-
-    img{
+    img {
         height: 250px;
         width: 250px;
     }
-
-    main{
+    main {
         display: inline;
         width: 100vw;
     }
-
-    article > div{
+    article>div {
         width: 45%;
         display: inline-block;
         height: 300px;
@@ -159,13 +156,12 @@
         margin: 0 auto;
         max-width: 85vw;
     }
-    footer > p > a{
+    footer>p>a {
         color: white;
     }
-
-@media only screen and (min-width:961px) {
-    article {
-        display: inline-block;
+    @media only screen and (min-width:961px) {
+        article {
+            display: inline-block;
+        }
     }
-}
 }
