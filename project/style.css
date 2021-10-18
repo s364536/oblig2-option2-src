@@ -152,8 +152,8 @@
         background-color: #c5192d;
     }
     img {
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
     }
     main {
         display: inline-block;
@@ -165,7 +165,7 @@
         height: 300px;
     }
     #intro-container {
-        background-color: whitesmoke;
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
     }
     footer {
         background-color: #c5192d;
@@ -198,18 +198,17 @@
     ul {
         list-style-type: none;
     }
-    article>div {
-        width: 45%;
-    }
+
     footer>p>a {
         color: white;
     }
-    article {
-        padding: 20px;
+    main > article:nth-of-type(4) > img{
+        text-align: right; 
     }
+
 }
 
-@media only screen and (min-width:961px) {
+@media only screen and (min-width:960px) {
     html {
         font-size: 24px;
     }
@@ -227,8 +226,9 @@
     body {
         margin: 0;
     }
-    #intro-container>div:first-of-type {
-        background-color: #c5192d;
+    
+    header > div{
+        height: 100%;
     }
     img {
         height: 250px;
@@ -245,6 +245,7 @@
     }
     #intro-container {
         background-color: whitesmoke;
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
     }
     footer {
         background-color: #c5192d;
