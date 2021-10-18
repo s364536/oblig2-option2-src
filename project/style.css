@@ -7,7 +7,7 @@
         margin: 0;
     }
     img {
-        width: 81vw;
+        width: 86vw;
         margin-left: 4%;
     }
     article {
@@ -26,10 +26,10 @@
     }
     header>div {
         background-color: #c5192d;
-        margin: 0 auto;
+        margin: auto;
         position: relative;
         bottom: -4rem;
-        top: 15rem;
+        top: 16.65rem;
         height: 60%;
         max-width: 95vw;
         z-index: 2;
@@ -37,7 +37,9 @@
     }
     div>h1 {
         font-size: 3rem;
-        margin-top: 2rem;
+        padding: 2rem;
+        padding-bottom: 0;
+        margin-top: 0;
     }
     @font-face {
         font-family: "Montserrat";
@@ -69,6 +71,10 @@
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+    main > article:nth-child(2){
+        border-bottom: 0.1px solid rgb(224, 224, 235);
+        margin-bottom: 5px;
     }
     li:first-child::before {
         content: "\1F64C";
@@ -108,9 +114,11 @@
         color: white;
         margin: 0 auto;
         max-width: 95vw;
+        margin-top: 2rem;
     }
     footer>p {
         text-align: center;
+        margin: 2%;
     }
     a {
         color: white;
@@ -193,10 +201,57 @@
     
         footer>p>a {
         color: white;
+        
     }
     @media only screen and (min-width:961px) {
-        article {
+        html{
+            font-size: 24px;
+        }
+
+        header {
+            height: 65vh;
+        }
+
+    header,
+    main,
+    footer{
+        width: 70vw;
+    }
+
+    article {
+        display: inline-block;
+    }
+
+        body {
+            margin: 0;}
+    
+     #intro-container>div:first-of-type {
+            background-color: #c5192d;
+        }
+        img {
+            height: 250px;
+            width: 250px;
+        }
+        main {
+            display: inline;
+            width: 100vw;
+        }
+        article>div {
+            width: 45%;
             display: inline-block;
+            height: 300px;
+        }
+        #intro-container {
+            background-color: whitesmoke;
+        }
+        footer {
+            background-color: #c5192d;
+            padding: 15px;
+            color: white;
+            margin: 0 auto;
+            max-width: 70vw;
+        }
+        footer>p>a {
+            color: white;
         }
     }
-}
