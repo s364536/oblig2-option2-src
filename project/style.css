@@ -166,8 +166,54 @@
         color: white;
     }
     @media only screen and (min-width:961px) {
-        article {
+        html{
+            font-size: 24px;
+        }
+
+        header {
+            height: 65vh;
+        }
+
+    header,
+    main,
+    footer{
+        width: 70vw;
+    }
+
+    article {
+        display: inline-block;
+    }
+
+        body {
+            margin: 0;}
+    
+     #intro-container>div:first-of-type {
+            background-color: #c5192d;
+        }
+        img {
+            height: 250px;
+            width: 250px;
+        }
+        main {
+            display: inline;
+            width: 100vw;
+        }
+        article>div {
+            width: 45%;
             display: inline-block;
+            height: 300px;
+        }
+        #intro-container {
+            background-color: whitesmoke;
+        }
+        footer {
+            background-color: #c5192d;
+            padding: 15px;
+            color: white;
+            margin: 0 auto;
+            max-width: 70vw;
+        }
+        footer>p>a {
+            color: white;
         }
     }
-}
