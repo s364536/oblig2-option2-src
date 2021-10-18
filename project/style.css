@@ -28,14 +28,16 @@
         background-color: #c5192d;
         margin: 0 auto;
         position: relative;
-        padding: 2rem;
         bottom: -4rem;
-        top: 20rem;
-        max-width: 73vw;
+        top: 15rem;
+        height: 60%;
+        max-width: 95vw;
         z-index: 2;
+        padding: 0;
     }
     div>h1 {
         font-size: 3rem;
+        margin-top: 2rem;
     }
     @font-face {
         font-family: "Montserrat";
@@ -57,14 +59,14 @@
     main {
         box-shadow: 0px 0px 1px 0px darkgray;
         background-color: whitesmoke;
-        width: 92vw;
+        width: 95vw;
         margin: 0 auto;
     }
     #intro-container {
         background-color: #c5192d;
         padding: 15px;
         margin-top: 6rem;
-        max-width: 95vw;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -95,16 +97,20 @@
         padding-left: 0px;
     }
     div {
-        padding: 15px;
         border-bottom: 2rem;
+        padding: 15px;
         margin: 0 auto;
     }
     footer {
         background-color: #c5192d;
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         color: white;
         margin: 0 auto;
-        max-width: 85vw;
+        max-width: 95vw;
+    }
+    footer>p {
+        text-align: center;
     }
     a {
         color: white;
