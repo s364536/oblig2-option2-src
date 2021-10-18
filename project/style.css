@@ -201,8 +201,6 @@
     main {
         width: 100vw;
         display: inline-block;
-        margin-right: auto;
-        margin-left: auto;
         text-align: center;
     }
     #intro-container {
@@ -261,6 +259,9 @@
         margin: 0 auto;
         text-align: left;
     }
+    #intro-container>div>ul {
+        margin-left: 20px;
+    }
     footer {
         background-color: #c5192d;
         padding-top: 15px;
@@ -282,59 +283,59 @@
         display: inline-block;
         height: 300px;
     }
-    article:nth-child(2)>div:first-of-type {
-        margin-right: 10%;
-    }
-    article>div:last-child {
-        margin-left: 10%;
-    }
-}
-
-@media only screen and (min-width:961px) {
-    html {
-        font-size: 24px;
-    }
-    header {
-        height: 65vh;
-    }
-    header,
-    main,
-    footer {
-        width: 85vw;
-    }
-    article {
-        display: inline-block;
-    }
-    body {
-        margin: 0;
-    }
-    #intro-container>div:first-of-type {
-        background-color: #c5192d;
-    }
-    img {
-        height: 250px;
-        width: 250px;
-    }
-    main {
-        display: inline;
-        width: 100vw;
-    }
-    article>div {
-        width: 45%;
-        display: inline-block;
-        height: 300px;
-    }
-    #intro-container {
-        background-color: whitesmoke;
-    }
-    footer {
-        background-color: #c5192d;
-        padding: 15px;
-        color: white;
-        margin: 0 auto;
-        max-width: 70vw;
-    }
     footer>p>a {
         color: white;
+    }
+    main>article:nth-of-type(4)>img {
+        text-align: right;
+    }
+    @media only screen and (min-width:960px) {
+        html {
+            font-size: 24px;
+        }
+        header {
+            height: 65vh;
+        }
+        header,
+        main,
+        footer {
+            width: 85vw;
+        }
+        article {
+            display: inline-block;
+        }
+        body {
+            margin: 0;
+        }
+        header>div {
+            height: 100%;
+        }
+        img {
+            height: 250px;
+            width: 250px;
+        }
+        main {
+            display: inline;
+            width: 100vw;
+        }
+        article>div {
+            width: 45%;
+            display: inline-block;
+            height: 300px;
+        }
+        #intro-container {
+            background-color: whitesmoke;
+            background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
+        }
+        footer {
+            background-color: #c5192d;
+            padding: 15px;
+            color: white;
+            margin: 0 auto;
+            max-width: 70vw;
+        }
+        footer>p>a {
+            color: white;
+        }
     }
 }
